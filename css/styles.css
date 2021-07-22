@@ -1,0 +1,159 @@
+/* GENERAL (id's first, media last, A~Z Order) */
+
+#about, #footer {
+  background-color: #FAF1E6;
+}
+
+#career-highlight, #portfolios {
+  background-color: #FDFAF6;
+}
+
+#experiences, #education-training {
+  background-color: #E4EFE7;
+}
+
+#portfolios, #education-training, #footer {
+  height: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+section .row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+/* NAVIGATION BAR (id's first, media last, A~Z Order) */
+
+.navbar-toggler .toggler-color-override {
+  color: white;
+  border-color: white;
+}
+
+.hide-md {
+  font-weight: bold;
+}
+
+@media (max-width: 991px) {
+  .hide-md {
+    display: none;
+  }
+}
+
+/* ABOUT (id's first, media last, A~Z Order) */
+
+#about .col-lg-5 {
+  padding-left: 70px;
+}
+
+#about .col-lg-5, .col-lg-7 {
+  margin: 4% 0;
+}
+
+#about .row {
+  align-items: center;
+  padding: 100px 0;
+}
+
+.about-content {
+  padding: 0 10% 0 3%;
+  text-align: justify;
+}
+
+.about-content p {
+  margin: 0;
+}
+
+.col-lg-5 a img {
+  border: 3px solid white;
+  border-radius: 100%;
+  box-shadow: 0 3px 5px grey;
+  height: 300px;
+  width: 300px;
+}
+
+@media (max-width: 991px) {
+  .about-content {
+    padding: 0 10%;
+    text-align: center;
+  }
+}
+
+/* CAREER HIGHLIGHT (id's first, media last, A~Z Order) */
+
+#career-highlight .row {
+  padding: 100px 0;
+}
+
+#career-highlight .col-12 {
+  text-align: center;
+}
+
+.col-12 .fas {
+  color: lightgrey;
+  /* Learn note: text-shadow shorthand (x horizontal shadow, y vertical shadow, blur radius, color) */
+  text-shadow: 0 2px 3px grey;
+}
+
+.col-12 h1 {
+  margin-top: 2%;
+}
+
+.col-12 ol {
+  display: inline-block;
+  line-height: 2.5;
+  width: 36%;
+}
+
+.col-12 li {
+  text-align: left;
+}
+
+/* EXPERIENCES (id's first, media last, A~Z Order) */
+
+#experiences .row {
+  align-items: center;
+}
+
+#vivo-tab{
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.col-lg-5 img {
+  height: 50%;
+  width: 50%;
+}
+
+.nav li:nth-child(2),
+.nav li:nth-child(4) {
+  margin: 0 4%;
+}
+
+.tab-content div {
+  margin-top: 1%;
+  max-height: 600px;
+}
+
+@media (max-width: 991px) {
+  .col-lg-7 .nav, .col-lg-7 .tab-content {
+    text-align: center;
+  }
+
+/* Belum sempurna, checkpoint dlu */
+  .col-lg-7 .tab-content ol {
+    display: inline-block;
+  }
+
+  .col-lg-7 .tab-content li {
+    text-align: left;
+  }
+}
+
+/* PORTFOLIOS (id's first, media last, A~Z Order) */
+
+
+/* EDUCATION TRAINING (id's first, media last, A~Z Order) */
+
+
+/* FOOTER (id's first, media last, A~Z Order) */
